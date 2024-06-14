@@ -1,0 +1,111 @@
+.card {
+  background-color: #111;
+  padding: 10px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: max-content;
+  max-height:max-content;
+  box-shadow: 3px 3px 3px  rgba(0, 0, 0, 0.5);
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+.poster {
+  
+}
+
+.poster img {
+  width: 100%;
+  border-radius: 7px;
+  box-shadow: 3px 3px 3px  rgba(0, 0, 0, 0.5);
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+.content {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  background-color: #222;
+  padding: 10px;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: normal;
+  color: #eee;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.year {
+  font-weight: normal;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222;
+  padding: 10px;
+  gap: 10px;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+.add-to-watch-list {
+  border-radius: 7px;
+  padding: 10px 7px;
+  transition: 0.7s;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: #555;
+  color: #eee;
+  box-shadow: 3px 3px 3px  rgba(0, 0, 0, 0.5);
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+.add-to-watch-list:hover {
+  background-color: #888;
+}
+
+.watched-btn {
+  border-radius: 7px;
+  padding: 10px 7px;
+  transition: 0.7s;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: #555;
+  color: #eee;
+  box-shadow: 3px 3px 3px  rgba(0, 0, 0, 0.5);
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+.watched-btn:hover {
+  background-color: #888;
+}
